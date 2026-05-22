@@ -1,0 +1,61 @@
+id,comment,label
+1,"Great job on the project team!",safe
+2,"This is really helpful information.",safe
+3,"Can someone explain how this works?",safe
+4,"Thank you for sharing this update.",safe
+5,"Looking forward to the next release.",safe
+6,"Amazing work everyone!",safe
+7,"I learned so much from this post.",safe
+8,"Congratulations on your achievement!",safe
+9,"This made my day better.",safe
+10,"Well written and informative.",safe
+11,"You are so stupid and dumb.",toxic
+12,"Nobody cares about your opinion.",toxic
+13,"This is the worst thing I have ever seen.",toxic
+14,"You clearly have no idea what you are doing.",toxic
+15,"Stop posting this garbage content.",toxic
+16,"You are a complete loser.",toxic
+17,"This is pathetic and worthless.",toxic
+18,"Why do you even bother trying?",toxic
+19,"Your content is trash.",toxic
+20,"You are so annoying.",toxic
+21,"I hate everything about you.",toxic
+22,"This is just dumb and useless.",toxic
+23,"You are terrible at this.",toxic
+24,"Nobody likes you here.",toxic
+25,"Go away and stop posting.",toxic
+26,"You are worthless and should disappear forever.",severe_toxic
+27,"I hope something terrible happens to you.",severe_toxic
+28,"The world would be better without people like you.",severe_toxic
+29,"You deserve nothing good in your life.",severe_toxic
+30,"I will make sure everyone knows how awful you are.",severe_toxic
+31,"You should just leave and never come back.",severe_toxic
+32,"Everyone hates you and wants you gone.",severe_toxic
+33,"You are a waste of space and oxygen.",severe_toxic
+34,"I hope you fail at everything forever.",severe_toxic
+35,"You are completely pathetic and useless.",severe_toxic
+36,"Nice explanation, very clear!",safe
+37,"Could you provide more details please?",safe
+38,"I appreciate your help with this.",safe
+39,"This is exactly what I needed.",safe
+40,"Great community here!",safe
+41,"You are an idiot and moron.",toxic
+42,"Shut up nobody asked you.",toxic
+43,"This is awful and disappointing.",toxic
+44,"You have no talent at all.",toxic
+45,"Just stop you are embarrassing yourself.",toxic
+46,"You are the worst person in this group.",toxic
+47,"Your ideas are stupid and worthless.",toxic
+48,"I cannot stand reading your posts.",toxic
+49,"You are a joke to everyone here.",toxic
+50,"This content makes me angry.",toxic
+51,"You should feel ashamed of yourself.",severe_toxic
+52,"No one would miss you if you left.",severe_toxic
+53,"You are a burden to everyone around you.",severe_toxic
+54,"Everything you touch turns to garbage.",severe_toxic
+55,"You will never amount to anything.",severe_toxic
+56,"People like you ruin everything.",severe_toxic
+57,"You are completely hopeless.",severe_toxic
+58,"Just give up already you failure.",severe_toxic
+59,"You are disgusting and unwanted.",severe_toxic
+60,"I wish you would just vanish.",severe_toxic

@@ -1,0 +1,31 @@
+message_id,sender,message,channel
+msg_001,alice,"Hey team, great progress today!",general
+msg_002,bob,Thanks for the help with the bug fix.,dev
+msg_003,charlie,Can we schedule a meeting tomorrow?,general
+msg_004,dave,The new feature looks amazing.,product
+msg_005,eve,I found a typo in the documentation.,docs
+msg_006,frank,Great job on the presentation slides.,general
+msg_007,grace,This code review was very helpful.,dev
+msg_008,henry,Looking forward to the demo.,product
+msg_009,ivy,The deployment went smoothly.,ops
+msg_010,jack,Thanks for staying late to finish this.,general
+msg_011,karen,You are so stupid nobody wants you here.,general
+msg_012,liam,This is the worst code I have ever reviewed.,dev
+msg_013,mia,Stop wasting our time with your garbage ideas.,product
+msg_014,noah,You clearly do not belong on this team.,general
+msg_015,olivia,Your contributions are pathetic and worthless.,dev
+msg_016,paul,Why do we even keep you around?,general
+msg_017,quinn,Everything you do is trash.,product
+msg_018,rachel,You are annoying and nobody likes you.,general
+msg_019,sam,I hate working with you on anything.,dev
+msg_020,tina,This project would be better without you.,product
+msg_021,umar,You are a complete failure and always will be.,general
+msg_022,victor,I hope you get fired soon.,general
+msg_023,wendy,The world would be better if you just quit.,general
+msg_024,xander,You deserve to be alone and miserable.,general
+msg_025,yara,Everyone here wants you to leave forever.,general
+msg_026,zack,You are worthless and should disappear.,general
+msg_027,anna,I hope something bad happens to your career.,general
+msg_028,ben,No one would care if you never showed up again.,general
+msg_029,clara,You are a burden to this entire organization.,general
+msg_030,dan,Everything you touch turns into a disaster.,general

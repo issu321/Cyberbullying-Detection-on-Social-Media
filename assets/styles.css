@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap');
+
+/* Main background */
+.stApp {
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f0f1e 50%, #1a1a2e 100%);
+}
+
+/* Header */
+.cyber-header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(10,10,10,0.9) 0%, rgba(26,26,46,0.9) 100%);
+    border: 1px solid #00d4ff;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.2), inset 0 0 25px rgba(0, 212, 255, 0.05);
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.cyber-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent 30%, rgba(0, 212, 255, 0.03) 50%, transparent 70%);
+    animation: shimmer 6s infinite linear;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) translateY(-100%); }
+    100% { transform: translateX(100%) translateY(100%); }
+}
+
+.cyber-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00d4ff;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.8), 0 0 30px rgba(0, 212, 255, 0.4);
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.cyber-header p {
+    font-family: 'Rajdhani', sans-serif;
+    color: #00ff9d;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    margin: 0.5rem 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Cards */
+.cyber-card {
+    background: linear-gradient(145deg, rgba(15,15,30,0.9) 0%, rgba(26,26,46,0.9) 100%);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 212, 255, 0.1);
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cyber-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00d4ff, transparent);
+    opacity: 0.5;
+}
+
+.cyber-card:hover {
+    box-shadow: 0 6px 30px rgba(0, 212, 255, 0.3);
+    transform: translateY(-3px);
+    border-color: rgba(0, 212, 255, 0.5);
+}
+
+/* Metric boxes */
+.metric-box {
+    background: rgba(10, 10, 30, 0.8);
+    border: 1px solid #00ff9d;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 255, 157, 0.1);
+}
+
+.metric-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00ff9d, transparent);
+}
+
+.metric-box h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.2rem;
+    color: #00ff9d;
+    text-shadow: 0 0 15px rgba(0, 255, 157, 0.6);
+    margin: 0;
+}
+
+.metric-box p {
+    font-family: 'Rajdhani', sans-serif;
+    color: #a0a0b0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0.5rem 0 0 0;
+}
+
+/* Terminal */
+.terminal-box {
+    background: #050508;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 1.2rem;
+    font-family: 'Courier New', monospace;
+    color: #00ff9d;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.terminal-box::before {
+    content: '● ● ●';
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    color: #333;
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+}
+
+/* Footer */
+.footer-text {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid rgba(51, 51, 51, 0.5);
+    margin-top: 3rem;
+    color: #666;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, transparent 0%, rgba(10,10,20,0.5) 100%);
+}
+
+/* Sidebar */
+.sidebar-brand {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+    margin-bottom: 1.5rem;
+}
+
+.sidebar-brand h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00d4ff;
+    font-size: 1.4rem;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.sidebar-brand p {
+    color: #00ff9d;
+    font-size: 0.8rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0.3rem 0 0 0;
+    letter-spacing: 1px;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #00d4ff 0%, #00ff9d 100%) !important;
+    color: #0a0a0a !important;
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.75rem 2rem !important;
+    letter-spacing: 1px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3) !important;
+}
+
+.stButton > button:hover {
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.6) !important;
+    transform: scale(1.02) !important;
+}
+
+/* Radio buttons */
+div[data-testid="stRadio"] > div {
+    background: rgba(10, 10, 30, 0.5);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    background: linear-gradient(90deg, #00d4ff 0%, #00ff9d 100%) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00d4ff;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00ff9d;
+}
+
+/* Text area */
+.stTextArea textarea {
+    background: rgba(10, 10, 30, 0.8) !important;
+    border: 1px solid rgba(0, 212, 255, 0.3) !important;
+    border-radius: 10px !important;
+    color: #e0e0e0 !important;
+    font-family: 'Rajdhani', sans-serif !important;
+}
+
+.stTextArea textarea:focus {
+    border-color: #00d4ff !important;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2) !important;
+}
+
+/* Dataframe */
+.stDataFrame {
+    border: 1px solid rgba(0, 212, 255, 0.2) !important;
+    border-radius: 10px !important;
+}

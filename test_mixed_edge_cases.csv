@@ -1,0 +1,40 @@
+text,category
+Great job!,safe
+"This is amazing work, keep it up!",safe
+I totally agree with your point.,safe
+Thanks for the detailed explanation.,safe
+Could you share the source code?,safe
+I appreciate your help with this issue.,safe
+Well done on the presentation.,safe
+This tutorial saved me hours.,safe
+Looking forward to more content.,safe
+You are an idiot.,toxic
+This is garbage.,toxic
+"Stop talking, nobody asked you.",toxic
+Your ideas are stupid.,toxic
+You are the worst developer here.,toxic
+This post is a complete waste of time.,toxic
+You have no talent whatsoever.,toxic
+I cannot believe how bad this is.,toxic
+You should feel ashamed.,severe_toxic
+I wish you would just vanish.,severe_toxic
+No one would miss you.,severe_toxic
+You are a burden to everyone.,severe_toxic
+Everything you do turns to garbage.,severe_toxic
+You will never amount to anything.,severe_toxic
+People like you ruin everything.,severe_toxic
+You are completely hopeless.,severe_toxic
+Just give up already.,severe_toxic
+You are disgusting and unwanted.,severe_toxic
+I hope you fail forever.,severe_toxic
+,empty
+Hi,short
+OK,short
+lol,short
+123456789,numbers
+https://example.com some link,link
+@user123 check this out #awesome,mentions
+Mixed feelings about this one.,neutral
+"Not bad, not great either.",neutral
+It is what it is.,neutral
+"Could be better, could be worse.",neutral
