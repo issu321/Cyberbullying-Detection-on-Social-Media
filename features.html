@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | CyberShield AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html" class="active">Features</a></li>
+            <li><a href="demo.html">Live Demo</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">CAPABILITIES</span>
+            <h1>Features & Capabilities</h1>
+            <p>Everything CyberShield AI brings to the table</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="feature-detail-grid">
+                <div class="feature-detail-card">
+                    <div class="feature-icon-large"><i class="fas fa-bolt"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>Real-Time Toxicity Detection</h2>
+                        <p>Instantly analyze any text input and classify it into three severity levels: <strong>Safe</strong>, <strong>Mild Toxic</strong>, or <strong>Severe Toxic</strong>. Each prediction comes with a confidence percentage so you know exactly how certain the AI is.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Sub-millisecond response time</li>
+                            <li><i class="fas fa-check"></i> Three-tier classification system</li>
+                            <li><i class="fas fa-check"></i> Confidence score visualization</li>
+                            <li><i class="fas fa-check"></i> Color-coded results (Green/Orange/Red)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-detail-card reverse">
+                    <div class="feature-icon-large"><i class="fas fa-smile"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>Sentiment Analysis Engine</h2>
+                        <p>Powered by NLTK's VADER sentiment analyzer, CyberShield AI evaluates the emotional tone of text. Understand whether a message is Positive, Neutral, or Negative with detailed compound scoring.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> VADER-based sentiment scoring</li>
+                            <li><i class="fas fa-check"></i> Compound, positive, neutral, negative breakdown</li>
+                            <li><i class="fas fa-check"></i> Emoji-based sentiment indicators</li>
+                            <li><i class="fas fa-check"></i> Cross-referenced with toxicity data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-detail-card">
+                    <div class="feature-icon-large"><i class="fas fa-robot"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>AI Explanation Engine</h2>
+                        <p>Technical results are converted into human-readable explanations. Instead of just seeing "Toxic 94%", you get insights like "This comment contains aggressive language and personal attacks, indicating severe cyberbullying behavior."</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Natural language explanations</li>
+                            <li><i class="fas fa-check"></i> Keyword highlighting</li>
+                            <li><i class="fas fa-check"></i> Severity reasoning</li>
+                            <li><i class="fas fa-check"></i> Actionable insights for moderators</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-detail-card reverse">
+                    <div class="feature-icon-large"><i class="fas fa-file-csv"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>Batch CSV Processing</h2>
+                        <p>Upload entire datasets for bulk analysis. The system auto-detects text columns (comment, text, message, tweet, content, post) and processes all rows with a visual progress bar. Export results as downloadable CSV.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Auto column detection</li>
+                            <li><i class="fas fa-check"></i> Progress bar with live updates</li>
+                            <li><i class="fas fa-check"></i> Full probability breakdown per row</li>
+                            <li><i class="fas fa-check"></i> One-click CSV export</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-detail-card">
+                    <div class="feature-icon-large"><i class="fas fa-chart-pie"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>Interactive Analytics Dashboard</h2>
+                        <p>Beautiful Plotly-powered visualizations including toxicity distribution pie charts, confidence gauges, bar charts for batch results, and session history tracking. All in a dark cyberpunk theme.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Plotly interactive charts</li>
+                            <li><i class="fas fa-check"></i> Real-time gauge meters</li>
+                            <li><i class="fas fa-check"></i> Session analytics history</li>
+                            <li><i class="fas fa-check"></i> Dataset distribution overview</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-detail-card reverse">
+                    <div class="feature-icon-large"><i class="fas fa-palette"></i></div>
+                    <div class="feature-detail-content">
+                        <h2>Cyberpunk UI Design</h2>
+                        <p>A visually stunning dark-mode interface with neon blue and green accents, glowing cards, animated metrics, terminal-style sections, and smooth transitions. Built to impress in portfolios and demos.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Dark futuristic theme</li>
+                            <li><i class="fas fa-check"></i> Neon color accents</li>
+                            <li><i class="fas fa-check"></i> Glowing hover effects</li>
+                            <li><i class="fas fa-check"></i> Responsive mobile layout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

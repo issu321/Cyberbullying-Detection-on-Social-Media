@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download | CyberShield AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="demo.html">Live Demo</a></li>
+            <li><a href="download.html" class="active">Download</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">GET STARTED</span>
+            <h1>Download & Install</h1>
+            <p>Get CyberShield AI running on your system in minutes</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon"><i class="fab fa-windows"></i></div>
+                    <h2>Windows</h2>
+                    <p>One-click installer for Windows 10/11 with Python 3.11+</p>
+                    <div class="install-steps">
+                        <div class="install-step"><span>1</span> Install Python 3.11+ from python.org</div>
+                        <div class="install-step"><span>2</span> Clone or download the repository</div>
+                        <div class="install-step"><span>3</span> Double-click <code>install.bat</code></div>
+                    </div>
+                    <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Get from GitHub
+                    </a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon"><i class="fab fa-linux"></i></div>
+                    <h2>Linux / macOS</h2>
+                    <p>Shell installer for Ubuntu, Debian, Kali, and macOS</p>
+                    <div class="install-steps">
+                        <div class="install-step"><span>1</span> Ensure python3 and pip are installed</div>
+                        <div class="install-step"><span>2</span> Clone the repository</div>
+                        <div class="install-step"><span>3</span> Run <code>chmod +x install.sh && ./install.sh</code></div>
+                    </div>
+                    <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Get from GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="requirements-box">
+                <h3><i class="fas fa-cogs"></i> System Requirements</h3>
+                <div class="req-grid">
+                    <div class="req-item"><i class="fab fa-python"></i> Python 3.11 or higher</div>
+                    <div class="req-item"><i class="fas fa-memory"></i> 4GB RAM minimum</div>
+                    <div class="req-item"><i class="fas fa-hdd"></i> 500MB free disk space</div>
+                    <div class="req-item"><i class="fas fa-wifi"></i> Internet (for NLTK data download)</div>
+                </div>
+            </div>
+
+            <div class="manual-install">
+                <h3><i class="fas fa-terminal"></i> Manual Installation</h3>
+                <div class="code-block">
+                    <div class="code-header">
+                        <span>bash</span>
+                        <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                    </div>
+                    <pre><code># Clone repository
+git clone https://github.com/issu321/Cyberbullying-Detection-on-Social-Media.git
+cd Cyberbullying-Detection-on-Social-Media
+
+# Create virtual environment
+python3 -m venv venv
+
+# Activate (Linux/macOS)
+source venv/bin/activate
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download NLTK data
+python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('stopwords'); nltk.download('punkt'); nltk.download('punkt_tab')"
+
+# Launch application
+python -m streamlit run app.py</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

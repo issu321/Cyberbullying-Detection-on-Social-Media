@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | CyberShield AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="demo.html">Live Demo</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">THE PROJECT</span>
+            <h1>About CyberShield AI</h1>
+            <p>Learn about the mission, technology, and developer behind the project</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-card mission">
+                    <div class="about-icon"><i class="fas fa-bullseye"></i></div>
+                    <h2>Our Mission</h2>
+                    <p>CyberShield AI was built to make the internet a safer place by leveraging the power of Natural Language Processing and Machine Learning. We believe that automated content moderation tools should be accessible, open-source, and effective for communities of all sizes.</p>
+                    <p>The project focuses on detecting cyberbullying patterns in social media comments, messages, and posts — providing instant classification and actionable insights for moderators and platform owners.</p>
+                </div>
+
+                <div class="about-card tech">
+                    <div class="about-icon"><i class="fas fa-microchip"></i></div>
+                    <h2>The Technology</h2>
+                    <p>CyberShield AI combines traditional machine learning with modern NLP techniques:</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">TF-IDF Vectorization</span>
+                        <span class="tech-tag">Logistic Regression</span>
+                        <span class="tech-tag">VADER Sentiment</span>
+                        <span class="tech-tag">NLTK Tokenization</span>
+                        <span class="tech-tag">Streamlit UI</span>
+                        <span class="tech-tag">Plotly Charts</span>
+                        <span class="tech-tag">pandas</span>
+                        <span class="tech-tag">numpy</span>
+                    </div>
+                    <p style="margin-top:1rem;">The model is trained on a curated educational dataset with 60+ labeled samples across three categories: Safe, Toxic, and Severe Toxic.</p>
+                </div>
+            </div>
+
+            <div class="developer-section">
+                <div class="dev-card">
+                    <div class="dev-avatar">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="dev-info">
+                        <h2>Developer</h2>
+                        <h3>Ussu</h3>
+                        <p class="dev-handle">
+                            <a href="https://github.com/issu321" target="_blank"><i class="fab fa-github"></i> @issu321</a>
+                        </p>
+                        <p>Passionate about AI, NLP, and building tools that make a positive impact. CyberShield AI is an open-source portfolio project showcasing practical machine learning applications in content safety.</p>
+                        <div class="dev-stats">
+                            <div><span>Python</span> AI / NLP Developer</div>
+                            <div><span>Focus</span> Cyberbullying Detection</div>
+                            <div><span>License</span> MIT Open Source</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="repo-section">
+                <h2><i class="fab fa-github"></i> Repository</h2>
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>Cyberbullying-Detection-on-Social-Media</span>
+                    </div>
+                    <p>AI-powered cyberbullying detection system using Python NLP, Streamlit, and scikit-learn.</p>
+                    <div class="repo-meta">
+                        <span><i class="fas fa-circle" style="color:#3572A5"></i> Python</span>
+                        <span><i class="fas fa-star"></i> Star on GitHub</span>
+                        <span><i class="fas fa-code-branch"></i> Open Source</span>
+                    </div>
+                    <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> View Repository
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

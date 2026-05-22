@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield AI | AI-Powered Cyberbullying Detection</title>
+    <meta name="description" content="CyberShield AI - Advanced NLP-powered cyberbullying detection system for safer social media.">
+    <meta name="author" content="issu321">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Matrix Canvas Background -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="demo.html">Live Demo</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge">
+                <i class="fas fa-bolt"></i> AI-Powered Protection
+            </div>
+            <h1 class="glitch" data-text="DETECT. ANALYZE. PROTECT.">
+                DETECT. ANALYZE. PROTECT.
+            </h1>
+            <p class="hero-subtitle">
+                Advanced NLP cyberbullying detection system that identifies toxic content 
+                in real-time using machine learning and sentiment analysis.
+            </p>
+            <div class="hero-buttons">
+                <a href="demo.html" class="btn btn-primary">
+                    <i class="fas fa-play"></i> Try Live Demo
+                </a>
+                <a href="download.html" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download
+                </a>
+                <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="95">0</span>%
+                    <span class="stat-label">Detection Accuracy</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Severity Levels</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span>%
+                    <span class="stat-label">Open Source</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section how-it-works" id="how">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PROCESS</span>
+                <h2>How It Works</h2>
+                <p>Three simple steps to detect and analyze toxic content</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card" data-step="01">
+                    <div class="step-icon">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <h3>Input Text</h3>
+                    <p>Paste any comment, message, or social media post into the analyzer. Supports single text or batch CSV upload.</p>
+                </div>
+                <div class="step-card" data-step="02">
+                    <div class="step-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Analysis</h3>
+                    <p>Our NLP engine processes the text using TF-IDF vectorization, sentiment analysis, and machine learning classification.</p>
+                </div>
+                <div class="step-card" data-step="03">
+                    <div class="step-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Get Results</h3>
+                    <p>Receive instant toxicity classification with confidence scores, sentiment analysis, and human-readable AI explanations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Preview -->
+    <section class="section features-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CAPABILITIES</span>
+                <h2>Core Features</h2>
+                <p>Everything you need to keep digital spaces safe</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-bolt"></i>
+                    <h3>Real-Time Detection</h3>
+                    <p>Instantly classify comments as Safe, Mild Toxic, or Severe Toxic with confidence percentages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-smile"></i>
+                    <h3>Sentiment Analysis</h3>
+                    <p>VADER-based sentiment scoring with Positive, Neutral, and Negative classification.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-file-csv"></i>
+                    <h3>Batch Processing</h3>
+                    <p>Upload CSV files for bulk analysis. Auto-detects text columns and exports results.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Visual Analytics</h3>
+                    <p>Interactive Plotly charts, toxicity gauges, pie charts, and session history tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Explanations</h3>
+                    <p>Human-readable explanations that describe why content was flagged and how severe it is.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-glow"></div>
+                    <i class="fas fa-code"></i>
+                    <h3>Open Source</h3>
+                    <p>Built with Python, Streamlit, scikit-learn, and NLTK. Fully customizable and extensible.</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="features.html" class="btn btn-primary">View All Features <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">TECHNOLOGY</span>
+                <h2>Built With</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item"><i class="fab fa-python"></i><span>Python 3.11+</span></div>
+                <div class="tech-item"><i class="fas fa-rocket"></i><span>Streamlit</span></div>
+                <div class="tech-item"><i class="fas fa-brain"></i><span>scikit-learn</span></div>
+                <div class="tech-item"><i class="fas fa-language"></i><span>NLTK</span></div>
+                <div class="tech-item"><i class="fas fa-chart-line"></i><span>Plotly</span></div>
+                <div class="tech-item"><i class="fas fa-table"></i><span>pandas</span></div>
+                <div class="tech-item"><i class="fas fa-calculator"></i><span>numpy</span></div>
+                <div class="tech-item"><i class="fas fa-robot"></i><span>Transformers</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to Protect Your Community?</h2>
+                <p>Download CyberShield AI today and start detecting toxic content with the power of machine learning.</p>
+                <div class="cta-buttons">
+                    <a href="download.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-download"></i> Get Started
+                    </a>
+                    <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank" class="btn btn-outline btn-lg">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-brand">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>CYBER<span class="accent">SHIELD</span></span>
+                    </div>
+                    <p>AI-powered cyberbullying detection for safer digital spaces.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/issu321" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="demo.html">Live Demo</a></li>
+                        <li><a href="download.html">Download</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank">GitHub Repo</a></li>
+                        <li><a href="download.html">Installation Guide</a></li>
+                        <li><a href="demo.html">Try Online</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

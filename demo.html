@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Demo | CyberShield AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="demo.html" class="active">Live Demo</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">TRY IT NOW</span>
+            <h1>Live Detection Demo</h1>
+            <p>Type any text below to see real-time cyberbullying analysis</p>
+        </div>
+    </section>
+
+    <section class="section demo-section">
+        <div class="container">
+            <div class="demo-box">
+                <div class="demo-input-area">
+                    <label class="demo-label"><i class="fas fa-keyboard"></i> Enter text to analyze</label>
+                    <textarea id="demoInput" class="demo-textarea" placeholder="Type or paste a comment here... Example: 'You are so stupid and dumb.'" rows="4"></textarea>
+                    <div class="demo-actions">
+                        <button id="analyzeBtn" class="btn btn-primary btn-lg">
+                            <i class="fas fa-bolt"></i> Analyze Text
+                        </button>
+                        <button id="clearBtn" class="btn btn-secondary">
+                            <i class="fas fa-trash"></i> Clear
+                        </button>
+                    </div>
+                    <div class="demo-presets">
+                        <span>Quick tests:</span>
+                        <button class="preset-btn" data-text="Great job team, this is amazing work!">Safe</button>
+                        <button class="preset-btn" data-text="You are so stupid and nobody cares about you.">Toxic</button>
+                        <button class="preset-btn" data-text="You are worthless and should disappear forever.">Severe</button>
+                    </div>
+                </div>
+
+                <div id="demoResults" class="demo-results hidden">
+                    <div class="result-header" id="resultHeader">
+                        <i class="fas fa-shield-halved"></i>
+                        <span id="resultStatus">Analyzing...</span>
+                    </div>
+
+                    <div class="result-confidence">
+                        <div class="confidence-label">Confidence</div>
+                        <div class="confidence-bar-bg">
+                            <div class="confidence-bar" id="confidenceBar"></div>
+                        </div>
+                        <div class="confidence-value" id="confidenceValue">0%</div>
+                    </div>
+
+                    <div class="result-probabilities">
+                        <div class="prob-item">
+                            <span class="prob-label">Safe</span>
+                            <div class="prob-bar-bg"><div class="prob-bar safe" id="safeBar"></div></div>
+                            <span class="prob-value" id="safeValue">0%</span>
+                        </div>
+                        <div class="prob-item">
+                            <span class="prob-label">Toxic</span>
+                            <div class="prob-bar-bg"><div class="prob-bar toxic" id="toxicBar"></div></div>
+                            <span class="prob-value" id="toxicValue">0%</span>
+                        </div>
+                        <div class="prob-item">
+                            <span class="prob-label">Severe</span>
+                            <div class="prob-bar-bg"><div class="prob-bar severe" id="severeBar"></div></div>
+                            <span class="prob-value" id="severeValue">0%</span>
+                        </div>
+                    </div>
+
+                    <div class="result-explanation">
+                        <h4><i class="fas fa-brain"></i> AI Explanation</h4>
+                        <p id="explanationText"></p>
+                    </div>
+
+                    <div class="result-sentiment">
+                        <h4><i class="fas fa-smile"></i> Sentiment Analysis</h4>
+                        <div class="sentiment-display" id="sentimentDisplay">
+                            <span class="sentiment-emoji" id="sentimentEmoji">😐</span>
+                            <span class="sentiment-label" id="sentimentLabel">Neutral</span>
+                        </div>
+                        <div class="sentiment-scores" id="sentimentScores"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | CyberShield AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-shield-halved"></i>
+            <span>CYBER<span class="accent">SHIELD</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="demo.html">Live Demo</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-tag">CONNECT</span>
+            <h1>Get In Touch</h1>
+            <p>Questions, feedback, or collaboration ideas?</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Connect With Us</h2>
+                    <p>Have questions about CyberShield AI? Want to report a bug, suggest a feature, or collaborate? Reach out through any of the channels below.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/issu321" target="_blank">github.com/issu321</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-code-branch"></i>
+                            <div>
+                                <h4>Repository</h4>
+                                <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media" target="_blank">Cyberbullying-Detection-on-Social-Media</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-bug"></i>
+                            <div>
+                                <h4>Issues</h4>
+                                <a href="https://github.com/issu321/Cyberbullying-Detection-on-Social-Media/issues" target="_blank">Report a Bug</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <h4>Contributions</h4>
+                                <span>Open to pull requests and collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h2>Send a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> Name</label>
+                            <input type="text" id="contactName" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="contactEmail" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-tag"></i> Subject</label>
+                            <select id="contactSubject">
+                                <option value="general">General Inquiry</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="feature">Feature Request</option>
+                                <option value="collab">Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-comment"></i> Message</label>
+                            <textarea id="contactMessage" rows="5" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div id="formSuccess" class="form-success hidden">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully! We'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>Developed by <a href="https://github.com/issu321" target="_blank">issu321</a></p>
+                <p>CyberShield AI &copy; 2026. Open Source under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
